@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Picker renders without crashing 1`] = `
+<View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderBottomColor": "#E7E7E7",
+        "borderBottomWidth": 0.5,
+        "flexDirection": "row",
+        "height": 42,
+        "justifyContent": "space-between",
+        "marginTop": 10,
+        "opacity": 1,
+        "paddingHorizontal": 5,
+      }
+    }
+  >
+    <Text>
+      
+    </Text>
+    <Image
+      source={1}
+      style={
+        Object {
+          "height": 8,
+          "marginRight": 5,
+          "width": 15,
+        }
+      }
+    />
+  </View>
+</View>
+`;

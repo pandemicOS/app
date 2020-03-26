@@ -1,0 +1,570 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUpFirst renders without crashing 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFF",
+        "flex": 1,
+      },
+      Object {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <RCTScrollView
+    DEPRECATED_sendUpdatedChildFrames={false}
+    alwaysBounceVertical={true}
+    contentContainerStyle={
+      Object {
+        "backgroundColor": "#FFF",
+      }
+    }
+    onContentSizeChange={null}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onResponderGrant={[Function]}
+    onResponderReject={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onScrollShouldSetResponder={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onStartShouldSetResponderCapture={[Function]}
+    onTouchCancel={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    scrollBarThumbImage={
+      Object {
+        "__packager_asset": true,
+        "height": 1,
+        "scale": 1,
+        "uri": "file://assets/full/path/to/directory/name.type",
+        "width": 1,
+      }
+    }
+    sendMomentumEvents={false}
+    style={
+      Array [
+        Object {
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "overflow": "scroll",
+        },
+        Object {
+          "backgroundColor": "#FFF",
+          "flex": 1,
+        },
+      ]
+    }
+  >
+    <RCTScrollContentView
+      collapsable={false}
+      style={
+        Array [
+          undefined,
+          Object {
+            "backgroundColor": "#FFF",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 30,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#1E272E",
+                "fontSize": 25,
+                "fontWeight": "600",
+              },
+              undefined,
+            ]
+          }
+        >
+          Student information (1/2)
+        </Text>
+        <View
+          style={
+            Object {
+              "marginTop": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#676767",
+                "fontSize": 13,
+                "fontWeight": "600",
+                "marginTop": 20,
+              }
+            }
+          >
+            First Name
+          </Text>
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "borderBottomWidth": 0.5,
+                    "flexDirection": "row",
+                    "height": 42,
+                    "marginTop": 10,
+                  },
+                  Object {
+                    "borderBottomColor": "#E7E7E7",
+                  },
+                  Object {
+                    "marginTop": 0,
+                  },
+                  Object {
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              <TextInput
+                allowFontScaling={true}
+                autoCapitalize="none"
+                editable={true}
+                onChangeText={[Function]}
+                onEndEditing={[Function]}
+                onSubmitEditing={[Function]}
+                options={
+                  Object {
+                    "mask": "****************************************************************************************************",
+                  }
+                }
+                placeholderTextColor="#D2D2D2"
+                refInput={[Function]}
+                returnKeyType="default"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "color": "#1E272E",
+                      "flex": 1,
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                      "height": 60,
+                    },
+                    undefined,
+                  ]
+                }
+                type="custom"
+                underlineColorAndroid="rgba(0,0,0,0)"
+                value=""
+              />
+            </View>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#676767",
+                "fontSize": 13,
+                "fontWeight": "600",
+                "marginTop": 20,
+              }
+            }
+          >
+            Last Name
+          </Text>
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "borderBottomWidth": 0.5,
+                    "flexDirection": "row",
+                    "height": 42,
+                    "marginTop": 10,
+                  },
+                  Object {
+                    "borderBottomColor": "#E7E7E7",
+                  },
+                  Object {
+                    "marginTop": 0,
+                  },
+                  Object {
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              <TextInput
+                allowFontScaling={true}
+                autoCapitalize="none"
+                editable={true}
+                onChangeText={[Function]}
+                onEndEditing={[Function]}
+                onSubmitEditing={[Function]}
+                options={
+                  Object {
+                    "mask": "****************************************************************************************************",
+                  }
+                }
+                placeholderTextColor="#D2D2D2"
+                refInput={[Function]}
+                returnKeyType="default"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "color": "#1E272E",
+                      "flex": 1,
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                      "height": 60,
+                    },
+                    undefined,
+                  ]
+                }
+                type="custom"
+                underlineColorAndroid="rgba(0,0,0,0)"
+                value=""
+              />
+            </View>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#676767",
+                "fontSize": 13,
+                "fontWeight": "600",
+                "marginTop": 20,
+              }
+            }
+          >
+            Gender
+          </Text>
+          <View>
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "borderBottomColor": "#E7E7E7",
+                  "borderBottomWidth": 0.5,
+                  "flexDirection": "row",
+                  "height": 42,
+                  "justifyContent": "space-between",
+                  "marginTop": 0,
+                  "opacity": 1,
+                  "paddingHorizontal": 5,
+                }
+              }
+            >
+              <Text />
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "height": 8,
+                    "marginRight": 5,
+                    "width": 15,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#676767",
+                "fontSize": 13,
+                "fontWeight": "600",
+                "marginTop": 20,
+              }
+            }
+          >
+            Birth Date
+          </Text>
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "borderBottomWidth": 0.5,
+                    "flexDirection": "row",
+                    "height": 42,
+                    "marginTop": 10,
+                  },
+                  Object {
+                    "borderBottomColor": "#E7E7E7",
+                  },
+                  Object {
+                    "marginTop": 0,
+                  },
+                  Object {
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              <TextInput
+                allowFontScaling={true}
+                autoCapitalize="none"
+                editable={true}
+                keyboardType="number-pad"
+                maxLength={10}
+                onChangeText={[Function]}
+                onEndEditing={[Function]}
+                onSubmitEditing={[Function]}
+                options={
+                  Object {
+                    "format": "MM/DD/YYYY",
+                  }
+                }
+                placeholder="MM/DD/YYYY"
+                placeholderTextColor="#D2D2D2"
+                refInput={[Function]}
+                returnKeyType="done"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "color": "#1E272E",
+                      "flex": 1,
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                      "height": 60,
+                    },
+                    undefined,
+                  ]
+                }
+                type="datetime"
+                underlineColorAndroid="rgba(0,0,0,0)"
+                value=""
+              />
+            </View>
+          </View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#676767",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "marginTop": 20,
+                },
+                Object {
+                  "opacity": 1,
+                },
+              ]
+            }
+          >
+            Social Security Number
+          </Text>
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "borderBottomWidth": 0.5,
+                    "flexDirection": "row",
+                    "height": 42,
+                    "marginTop": 10,
+                  },
+                  Object {
+                    "borderBottomColor": "#E7E7E7",
+                  },
+                  Object {
+                    "marginTop": 0,
+                  },
+                  Object {
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              <TextInput
+                allowFontScaling={true}
+                autoCapitalize="none"
+                editable={true}
+                keyboardType="numeric"
+                maxLength={11}
+                onChangeText={[Function]}
+                onEndEditing={[Function]}
+                onSubmitEditing={[Function]}
+                options={
+                  Object {
+                    "mask": "999-99-9999",
+                  }
+                }
+                placeholderTextColor="#D2D2D2"
+                refInput={[Function]}
+                returnKeyType="done"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "color": "#1E272E",
+                      "flex": 1,
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                      "height": 60,
+                    },
+                    undefined,
+                  ]
+                }
+                type="custom"
+                underlineColorAndroid="rgba(0,0,0,0)"
+                value=""
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginTop": 10,
+              }
+            }
+          >
+            <RCTSwitch
+              onChange={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              onTintColor="#4A90E2"
+              style={
+                Object {
+                  "height": 31,
+                  "width": 51,
+                }
+              }
+              value={false}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#676767",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              I don't have a Social Security Number
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollContentView>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "alignSelf": "flex-end",
+        "backgroundColor": "#FAFAFA",
+        "marginTop": 30,
+        "padding": 30,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#4A90E2",
+          "borderRadius": 4,
+          "height": 55,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                  "paddingLeft": 12,
+                  "paddingRight": 5,
+                },
+                undefined,
+              ]
+            }
+          >
+            Continue
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#7C7C7C",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "marginTop": 1,
+                  "paddingRight": 5,
+                },
+                undefined,
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

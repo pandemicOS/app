@@ -1,0 +1,154 @@
+{
+  "name": "pandemic-os",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "yarn expo start",
+    "start:dev": "yarn build-config:development && yarn start",
+    "start:qa": "yarn build-config:qa && yarn start",
+    "eject": "expo eject",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "test": "yarn build-config:test && jest --forceExit --detectOpenHandles --watchAll=false --coverage",
+    "lint": "tslint -c ./tslint.json 'src/**/*.{ts,tsx}'",
+    "prettier": "prettier --parser typescript --single-quote",
+    "prettier:check": "yarn prettier --list-different \"src/**/*.{ts,tsx}\"",
+    "format": "yarn prettier --write \"src/**/*.{ts,tsx}\"",
+    "build-config:development": "cross-env NODE_ENV=development ts-node ./build-config.ts",
+    "build-config:develop": "cross-env NODE_ENV=development ts-node ./build-config.ts",
+    "build-config:dev": "cross-env NODE_ENV=development ts-node ./build-config.ts",
+    "build-config:qa": "cross-env NODE_ENV=qa ts-node ./build-config.ts",
+    "build-config:stage": "cross-env NODE_ENV=stage ts-node ./build-config.ts",
+    "build-config:production": "cross-env NODE_ENV=production ts-node ./build-config.ts",
+    "build-config:master": "cross-env NODE_ENV=production ts-node ./build-config.ts",
+    "build-config:test": "cross-env NODE_ENV=test ts-node ./build-config.ts",
+    "warn-and-build-config": "echo \"$(tput setaf 1) \n\n\nFOR THE LOVE OF GOD\nDON'T FORGET TO CHANGE THE VERSION NUMBER ON app.json $(tput sgr0)\n\n\n\" && yarn build-config:$(git rev-parse --abbrev-ref HEAD)",
+    "build:ios": "yarn warn-and-build-config && yarn expo build:ios",
+    "build:android": "yarn warn-and-build-config && yarn expo build:android -t app-bundle",
+    "expo": "npx expo"
+  },
+  "engines": {
+    "node": ">= 12.0.0"
+  },
+  "pre-commit": [
+    "lint",
+    "prettier:check"
+  ],
+  "jest": {
+    "verbose": false,
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest.setup.ts"
+    ],
+    "testEnvironment": "enzyme",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "preset": "jest-expo",
+    "testMatch": [
+      "**/?(*.)(spec|test).[tj]s?(x)"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-native|react-navigation)/"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "<rootDir>/src/**/*.{ts,tsx}",
+      "!<rootDir>/src/test/**/*.ts",
+      "!<rootDir>/src/**/styles.ts",
+      "!<rootDir>/src/modules/models/*.ts",
+      "!<rootDir>/src/modules/state-mgmt/rootState.ts",
+      "!<rootDir>/src/modules/AppRoot.tsx",
+      "!<rootDir>/src/modules/services/ApiService.ts",
+      "!<rootDir>/src/modules/state-mgmt/store.ts",
+      "!<rootDir>/src/modules/routingModule.tsx",
+      "!<rootDir>/src/modules/views/Pad/Main/**/*.*",
+      "!<rootDir>/src/**/index.tsx",
+      "!<rootDir>/src/**/index.ts"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "text",
+      "text-summary"
+    ],
+    "reporters": [
+      "default"
+    ],
+    "coverageDirectory": "./coverage"
+  },
+  "dependencies": {
+    "@expo/react-native-action-sheet": "^3.5.0",
+    "expo": "^36.0.0",
+    "expo-constants": "~8.0.0",
+    "expo-location": "~8.0.0",
+    "expo-permissions": "~8.0.0",
+    "expo-secure-store": "~8.0.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.1.tar.gz",
+    "react-native-gesture-handler": "~1.5.0",
+    "react-native-masked-text": "^1.10.1",
+    "react-native-reanimated": "~1.4.0",
+    "react-native-screens": "2.0.0-alpha.12",
+    "react-native-web": "0.11.7",
+    "react-navigation": "^4.0.0",
+    "react-navigation-stack": "^1.5.1",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-observable": "^1.1.0",
+    "rxjs": "^6.5.3"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.13",
+    "@types/jest": "^22.2.3",
+    "@types/react": "^16.9.0",
+    "@types/react-native": "^0.60.15",
+    "@types/react-navigation": "^3.0.8",
+    "@types/react-redux": "^7.1.0",
+    "@types/react-test-renderer": "^16.0.2",
+    "@types/redux": "^3.6.31",
+    "@types/redux-devtools-extension": "^2.13.2",
+    "@types/redux-test-utils": "^0.2.0",
+    "babel-plugin-inline-dotenv": "^1.1.2",
+    "babel-preset-expo": "^8.0.0",
+    "cross-env": "^5.2.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "expo-cli": "^3.0.10",
+    "jest-environment-enzyme": "^7.1.1",
+    "jest-enzyme": "^7.1.1",
+    "jest-expo": "^36.0.0",
+    "jsdom": "^15.1.1",
+    "npx": "^10.2.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.18.2",
+    "react-test-renderer": "16.8.3",
+    "redux-test-utils": "^0.3.0",
+    "ts-node": "^8.3.0",
+    "tslib": "^1.10.0",
+    "tslint": "^5.19.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.7.2"
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "printWidth": 160,
+    "bracketSpacing": true,
+    "arrowParens": "avoid",
+    "quoteProps": "as-needed",
+    "jsxSingleQuote": false,
+    "jsxBracketSameLine": false,
+    "proseWrap": "preserve"
+  }
+}

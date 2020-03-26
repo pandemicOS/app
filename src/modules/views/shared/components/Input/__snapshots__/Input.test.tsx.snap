@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input renders with DatePicker without crashing 1`] = `
+<View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderBottomWidth": 0.5,
+          "flexDirection": "row",
+          "height": 42,
+          "marginTop": 10,
+        },
+        Object {
+          "borderBottomColor": "#E7E7E7",
+        },
+        Object {},
+        Object {
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "justifyContent": "center",
+          "width": 20,
+        }
+      }
+    >
+      <Image
+        source={1}
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Input renders with DatePicker without icon 1`] = `
+<View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderBottomWidth": 0.5,
+          "flexDirection": "row",
+          "height": 42,
+          "marginTop": 10,
+        },
+        Object {
+          "borderBottomColor": "#E7E7E7",
+        },
+        Object {},
+        Object {
+          "opacity": 1,
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`Input renders without crashing 1`] = `
+<View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderBottomWidth": 0.5,
+          "flexDirection": "row",
+          "height": 42,
+          "marginTop": 10,
+        },
+        Object {
+          "borderBottomColor": "#E7E7E7",
+        },
+        Object {},
+        Object {
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "justifyContent": "center",
+          "width": 20,
+        }
+      }
+    >
+      <Image
+        source={1}
+      />
+    </View>
+  </View>
+</View>
+`;

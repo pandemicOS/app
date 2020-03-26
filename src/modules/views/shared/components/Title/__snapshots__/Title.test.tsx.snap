@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title renders without crashing 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#1E272E",
+        "fontSize": 25,
+        "fontWeight": "600",
+      },
+      undefined,
+    ]
+  }
+>
+  Title
+</Text>
+`;

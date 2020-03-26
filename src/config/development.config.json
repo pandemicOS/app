@@ -1,0 +1,7 @@
+{
+  "ENV": "development",
+  "API_URL": "http://3d2553d0.ngrok.io",
+  "API_RETRY_TIMEOUT": 1000,
+  "CHECK_FOR_UPDATES_INTERVAL": 120000,
+  "STORAGE_TIMEOUT": 6000
+}

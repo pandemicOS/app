@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BigButton renders disabled 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+      "borderRadius": 4,
+      "elevation": 2,
+      "height": "37%",
+      "justifyContent": "center",
+      "opacity": 0.5,
+      "shadowColor": "#1E272E",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.3,
+      "shadowRadius": 2,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "column",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#1E272E",
+          "fontSize": 21,
+          "fontWeight": "600",
+        }
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#1E272E",
+          "fontSize": 13,
+          "fontWeight": "300",
+          "marginTop": "2%",
+        }
+      }
+    >
+      subtitle
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`BigButton renders without crashing 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+      "borderRadius": 4,
+      "elevation": 2,
+      "height": "37%",
+      "justifyContent": "center",
+      "opacity": 1,
+      "shadowColor": "#1E272E",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.3,
+      "shadowRadius": 2,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "column",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#1E272E",
+          "fontSize": 21,
+          "fontWeight": "600",
+        }
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#1E272E",
+          "fontSize": 13,
+          "fontWeight": "300",
+          "marginTop": "2%",
+        }
+      }
+    >
+      subtitle
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`BigButton renders without subtitle 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+      "borderRadius": 4,
+      "elevation": 2,
+      "height": "37%",
+      "justifyContent": "center",
+      "opacity": 1,
+      "shadowColor": "#1E272E",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.3,
+      "shadowRadius": 2,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "column",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#1E272E",
+          "fontSize": 21,
+          "fontWeight": "600",
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`BigButton should render without onPress 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+      "borderRadius": 4,
+      "elevation": 2,
+      "height": "37%",
+      "justifyContent": "center",
+      "opacity": 1,
+      "shadowColor": "#1E272E",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.3,
+      "shadowRadius": 2,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "column",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#1E272E",
+          "fontSize": 21,
+          "fontWeight": "600",
+        }
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#1E272E",
+          "fontSize": 13,
+          "fontWeight": "300",
+          "marginTop": "2%",
+        }
+      }
+    >
+      subtitle
+    </Text>
+  </View>
+</View>
+`;
